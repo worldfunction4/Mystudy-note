@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "721c9f090b0cec9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a413558efa56c70d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e61b38dbd57a69a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "knowledge/Linux/Vim.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vim"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e98ee5209dbad16",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb0134e80b3267b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ff72660ad0c4dab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "24dbfe79379dfeb9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "656ede6ad74eb214",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8c8b7cb5e9174b4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a886f3e7b2b06f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21b12762cc734c81",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "knowledge/计算机网络/面试/计算机网络面试经验.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "计算机网络面试经验 的反向链接列表"
+            }
+          },
+          {
+            "id": "4c220b1d50dd2d44",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "knowledge/计算机网络/面试/计算机网络面试经验.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "计算机网络面试经验 的出链列表"
+            }
+          },
+          {
+            "id": "aa61fb5b153c4d1f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "0f967933a84a8e47",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a4fcde49c3c99f4b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "knowledge/C和C++/面向核心.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "面向核心 的大纲"
+            }
+          },
+          {
+            "id": "971fbeb56d0d2b1d",
+            "type": "leaf",
+            "state": {
+              "type": "nutstore-sync-chatbox",
+              "state": {},
+              "icon": "bot",
+              "title": "Chatbox"
+            }
+          },
+          {
+            "id": "58fe5a254f76d012",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 337.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "nutstore-sync:Start sync": false,
+      "nutstore-sync:Stop sync": false,
+      "nutstore-sync:Open chatbox": false
+    }
+  },
+  "active": "7e61b38dbd57a69a",
+  "lastOpenFiles": [
+    "knowledge/Linux/Linux基础.md",
+    "knowledge/C和C++/C++线程.md",
+    "knowledge/C和C++/C++_std_vector_学习笔记.md",
+    "knowledge/C和C++/智能指针.md",
+    "knowledge/C和C++/自动推导auto关键字.md",
+    "knowledge/C和C++/指针.md",
+    "knowledge/C和C++/继承.md",
+    "knowledge/C和C++/迭代器.md",
+    "knowledge/C和C++/迭代器失效规则.md",
+    "knowledge/专业术语/GIL（全局解释器锁）.md",
+    "knowledge/专业术语/上下文切换.md",
+    "knowledge/专业术语/广播风暴.md",
+    "knowledge/agent/img/codex_error.png",
+    "knowledge/遇到的一些问题/WSL2无法安装.md",
+    "knowledge/遇到的一些问题/无法将项目更改push到远程仓库.md",
+    "knowledge/遇到的一些问题/使用constexpt会报错.md",
+    "knowledge/agent/codex报错.md",
+    "knowledge/agent/img",
+    "knowledge/agent",
+    "knowledge/Python/openpyxl append() 报错但能运行.md",
+    "knowledge/Python/所谓掌握.md",
+    "knowledge/Python/concurrent.futures模块.md",
+    "knowledge/Python/AI编程.md",
+    "knowledge/Python/CPython.md",
+    "knowledge/C和C++/STL.md",
+    "knowledge/C和C++/vector容器.md",
+    "knowledge/C和C++/string容器.md",
+    "knowledge/C和C++/RAII.md",
+    "knowledge/Linux/Vim.md",
+    "photos/c++/Pasted image 20260530204722.png",
+    "photos/c++/Pasted image 20260609110516.png",
+    "photos/c++/Pasted image 20260609102250.png",
+    "photos/c++/Pasted image 20260609101942.png",
+    "photos/c++/Pasted image 20260603152445.png",
+    "photos/c++/Pasted image 20260602165715.png",
+    "photos/c++/Pasted image 20260530200743.png",
+    "photos/OSPF/OSPF七种状态抓包实验/Full.png",
+    "photos/OSPF/OSPF七种状态抓包实验/整体截图.png",
+    "photos/c++/数据库.base",
+    "photos/question",
+    "photos/python",
+    "未命名.canvas",
+    "photos/c++",
+    "knowledge/C和C++/C和C++",
+    "C和C++",
+    "knowledge/Linux",
+    "knowledge/C和C++"
+  ]
+}

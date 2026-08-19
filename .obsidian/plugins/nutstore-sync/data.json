@@ -1,0 +1,209 @@
+{
+  "account": "",
+  "credential": "",
+  "remoteDir": "/knowledge-base/",
+  "remoteCacheDir": "",
+  "useGitStyle": true,
+  "conflictStrategy": "diff-match-patch",
+  "oauthResponseText": "yZFrSEOJMEAawgNhRutvV10MnuFcjVaEvT-aaz4ipftCKWj5FxOIeo1U4t8G6gL-h2b35tliAaC3UNPDd7ocm_BcxKsoHyeR0ZjtFOMEHTiXtN6we9vwMcdlVraVPTiHfIb1_4yOw-fel2dSJ2qGfOrhiPcesfIA2JF2fimaf6sexERV2A",
+  "loginMode": "sso",
+  "confirmBeforeSync": true,
+  "confirmBeforeDeleteInAutoSync": true,
+  "syncMode": "loose",
+  "filterRules": {
+    "exclusionRules": [
+      {
+        "expr": "**/.git",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/.github",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/.gitlab",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/.svn",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/node_modules",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/.DS_Store",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/__MACOSX",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/desktop.ini",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/Thumbs.db",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/.trash",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/~$*.doc",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/~$*.docx",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/~$*.ppt",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/~$*.pptx",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/~$*.xls",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/~$*.xlsx",
+        "options": {
+          "caseSensitive": false
+        }
+      }
+    ],
+    "inclusionRules": []
+  },
+  "skipLargeFiles": {
+    "maxSize": "30 MB"
+  },
+  "realtimeSync": true,
+  "startupSyncDelaySeconds": 0,
+  "autoSyncIntervalSeconds": 300,
+  "ai": {
+    "providers": {
+      "httpsapideepseekcom": {
+        "id": "httpsapideepseekcom",
+        "env": [],
+        "npm": "@ai-sdk/openai-compatible",
+        "api": "https://api.deepseek.com",
+        "name": "deepseek",
+        "doc": "",
+        "apiKey": "sk-06efdfe8947441568fbf557f4dcb91fc",
+        "models": {
+          "deepseek-v4-flash": {
+            "id": "deepseek-v4-flash",
+            "name": "DeepSeek V4 Flash",
+            "family": "deepseek-flash",
+            "attachment": false,
+            "reasoning": true,
+            "tool_call": true,
+            "structured_output": true,
+            "temperature": true,
+            "knowledge": "2025-05",
+            "release_date": "2026-04-24",
+            "last_updated": "2026-04-24",
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "cost": {
+              "input": 0.14,
+              "output": 0.28,
+              "cache_read": 0.028
+            },
+            "limit": {
+              "context": 1000000,
+              "output": 384000
+            },
+            "interleaved": {
+              "field": "reasoning_content"
+            }
+          },
+          "deepseek-v4-pro": {
+            "id": "deepseek-v4-pro",
+            "name": "DeepSeek V4 Pro",
+            "family": "deepseek-thinking",
+            "attachment": false,
+            "reasoning": true,
+            "tool_call": true,
+            "structured_output": true,
+            "temperature": true,
+            "knowledge": "2025-05",
+            "release_date": "2026-04-24",
+            "last_updated": "2026-04-24",
+            "modalities": {
+              "input": [
+                "text"
+              ],
+              "output": [
+                "text"
+              ]
+            },
+            "open_weights": true,
+            "cost": {
+              "input": 1.74,
+              "output": 3.48,
+              "cache_read": 0.145
+            },
+            "limit": {
+              "context": 1000000,
+              "output": 384000
+            },
+            "interleaved": {
+              "field": "reasoning_content"
+            }
+          }
+        }
+      }
+    },
+    "yolo": false,
+    "defaultModel": {
+      "providerId": "httpsapideepseekcom",
+      "modelId": "deepseek-v4-flash"
+    }
+  },
+  "configDirSyncMode": "none"
+}
