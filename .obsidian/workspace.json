@@ -209,8 +209,11 @@
       "nutstore-sync:Open chatbox": false
     }
   },
-  "active": "7e61b38dbd57a69a",
+  "active": "7ff72660ad0c4dab",
   "lastOpenFiles": [
+    "README.md.tmp.33172.3062ef184345",
+    "README.md",
+    "README.md.tmp.33172.08388aa49dfc",
     "knowledge/Linux/Linux基础.md",
     "knowledge/C和C++/C++线程.md",
     "knowledge/C和C++/C++_std_vector_学习笔记.md",
@@ -238,8 +241,6 @@
     "knowledge/C和C++/STL.md",
     "knowledge/C和C++/vector容器.md",
     "knowledge/C和C++/string容器.md",
-    "knowledge/C和C++/RAII.md",
-    "knowledge/Linux/Vim.md",
     "photos/c++/Pasted image 20260530204722.png",
     "photos/c++/Pasted image 20260609110516.png",
     "photos/c++/Pasted image 20260609102250.png",
@@ -256,7 +257,6 @@
     "photos/c++",
     "knowledge/C和C++/C和C++",
     "C和C++",
-    "knowledge/Linux",
-    "knowledge/C和C++"
+    "knowledge/Linux"
   ]
 }
