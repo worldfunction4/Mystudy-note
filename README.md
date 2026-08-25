@@ -23,7 +23,7 @@ knowledge-base/
 │   ├── 遇到的一些问题/       # 踩坑记录
 │   └── 专业术语/            # 术语解释
 ├── photos/                 # 图片资源（按主题分类）
-├── life/                   # 生活随笔（暂空）
+├── life/                   # 生活随笔
 └── project/                # 项目记录（暂空）
 ```
 
@@ -132,10 +132,13 @@ knowledge-base/
 
 - [Linux基础](knowledge/Linux/Linux基础.md)
 - [Vim](knowledge/Linux/Vim.md)
+- [关于sudo](knowledge/Linux/关于sudo.md)
+- [Linux的SUID机制和安全风险](knowledge/Linux/Linux的SUID机制和安全风险.md)
 
 ### 数据结构与算法
 
-- [时间复杂度O(n)](knowledge/数据结构/时间复杂度O(n).md)
+- [时间复杂度O(n)](knowledge/数据结构与算法/时间复杂度O(n).md)
+- [哈希表](knowledge/数据结构与算法/哈希表.md)
 
 ### Leetcode 题解
 
@@ -158,6 +161,10 @@ knowledge-base/
 
 - [codex报错](knowledge/agent/codex报错.md)
 
+### 生活随笔
+
+- [关于自己最近的生活](life/关于自己最近的生活.md)
+
 ### 专业术语
 
 - [GIL（全局解释器锁）](knowledge/专业术语/GIL（全局解释器锁）.md)
@@ -168,8 +175,10 @@ knowledge-base/
 ### 踩坑记录
 
 - [WSL2无法安装](knowledge/遇到的一些问题/WSL2无法安装.md)
+- [WSL无法使用apt安装的问题](knowledge/遇到的一些问题/WSL无法使用apt安装的问题.md)
 - [使用constexpt会报错](knowledge/遇到的一些问题/使用constexpt会报错.md)
 - [无法将项目更改push到远程仓库](knowledge/遇到的一些问题/无法将项目更改push到远程仓库.md)
+- [远程ssh云服务器无法登录](knowledge/遇到的一些问题/远程ssh云服务器无法登录.md)
 
 ## 其他资源
 

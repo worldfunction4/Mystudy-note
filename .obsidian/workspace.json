@@ -11,14 +11,12 @@
             "id": "7e61b38dbd57a69a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "knowledge/Linux/Vim.md",
-                "mode": "source",
-                "source": false
+                "file": "knowledge/遇到的一些问题/imgs 1/ssh_error.png"
               },
-              "icon": "lucide-file",
-              "title": "Vim"
+              "icon": "lucide-image",
+              "title": "ssh_error"
             }
           }
         ]
@@ -192,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +206,38 @@
       "nutstore-sync:Open chatbox": false
     }
   },
-  "active": "7ff72660ad0c4dab",
+  "active": "971fbeb56d0d2b1d",
   "lastOpenFiles": [
-    "README.md.tmp.33172.3062ef184345",
+    "knowledge/遇到的一些问题/WSL无法使用apt安装的问题.md",
+    "knowledge/遇到的一些问题/WSL2无法安装.md",
+    "knowledge/遇到的一些问题/远程ssh云服务器无法登录.md",
+    "knowledge/遇到的一些问题/无法将项目更改push到远程仓库.md",
+    "knowledge/遇到的一些问题/imgs 1/clash配置.png",
+    "knowledge/遇到的一些问题/使用constexpt会报错.md",
+    "knowledge/Linux/关于sudo.md",
+    "knowledge/Linux/Linux的SUID机制和安全风险.md",
+    "knowledge/Linux/imgs/提权.png",
+    "knowledge/Linux/imgs",
+    "knowledge/数据结构与算法/哈希表.md",
     "README.md",
+    "life/关于自己最近的生活.md",
+    "knowledge/Leetcode/977.有序组的平方.md",
+    "knowledge/Leetcode/704.二分查找.md",
+    "knowledge/Leetcode/1. 两数之和.md",
+    "knowledge/数据结构与算法/imgs/hash.png",
+    "knowledge/遇到的一些问题/imgs 1/ssh_error.png",
+    "knowledge/agent/imgs/codex_error.png",
+    "knowledge/数据结构与算法/imgs",
+    "knowledge/计算机网络/imgs/Pasted image 20260822173811.png",
+    "knowledge/数据结构与算法/时间复杂度O(n).md",
+    "knowledge/计算机网络/imgs",
+    "knowledge/遇到的一些问题/imgs 1",
+    "photos/question/someProblem.png",
+    "photos/question/Pasted image 20260820105001.png",
+    "photos/question/Pasted image 20260602204232.png",
+    "photos/question/Pasted image 20260602203635.png",
+    "knowledge/Linux/Vim.md",
+    "README.md.tmp.33172.3062ef184345",
     "README.md.tmp.33172.08388aa49dfc",
     "knowledge/Linux/Linux基础.md",
     "knowledge/C和C++/C++线程.md",
@@ -224,39 +249,10 @@
     "knowledge/C和C++/迭代器.md",
     "knowledge/C和C++/迭代器失效规则.md",
     "knowledge/专业术语/GIL（全局解释器锁）.md",
-    "knowledge/专业术语/上下文切换.md",
-    "knowledge/专业术语/广播风暴.md",
-    "knowledge/agent/img/codex_error.png",
-    "knowledge/遇到的一些问题/WSL2无法安装.md",
-    "knowledge/遇到的一些问题/无法将项目更改push到远程仓库.md",
-    "knowledge/遇到的一些问题/使用constexpt会报错.md",
-    "knowledge/agent/codex报错.md",
-    "knowledge/agent/img",
+    "knowledge/agent/imgs",
     "knowledge/agent",
-    "knowledge/Python/openpyxl append() 报错但能运行.md",
-    "knowledge/Python/所谓掌握.md",
-    "knowledge/Python/concurrent.futures模块.md",
-    "knowledge/Python/AI编程.md",
-    "knowledge/Python/CPython.md",
-    "knowledge/C和C++/STL.md",
-    "knowledge/C和C++/vector容器.md",
-    "knowledge/C和C++/string容器.md",
-    "photos/c++/Pasted image 20260530204722.png",
-    "photos/c++/Pasted image 20260609110516.png",
-    "photos/c++/Pasted image 20260609102250.png",
-    "photos/c++/Pasted image 20260609101942.png",
-    "photos/c++/Pasted image 20260603152445.png",
-    "photos/c++/Pasted image 20260602165715.png",
-    "photos/c++/Pasted image 20260530200743.png",
-    "photos/OSPF/OSPF七种状态抓包实验/Full.png",
-    "photos/OSPF/OSPF七种状态抓包实验/整体截图.png",
     "photos/c++/数据库.base",
     "photos/question",
-    "photos/python",
-    "未命名.canvas",
-    "photos/c++",
-    "knowledge/C和C++/C和C++",
-    "C和C++",
-    "knowledge/Linux"
+    "未命名.canvas"
   ]
 }
