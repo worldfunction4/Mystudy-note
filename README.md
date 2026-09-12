@@ -19,12 +19,10 @@ knowledge-base/
 │   │   ├── 局域网/
 │   │   ├── 面试/
 │   │   └── 网络安全/
-│   ├── 数据结构/            # 数据结构与算法基础
+│   ├── 数据结构与算法/       # 数据结构与算法基础
 │   ├── 遇到的一些问题/       # 踩坑记录
 │   └── 专业术语/            # 术语解释
-├── photos/                 # 图片资源（按主题分类）
-├── life/                   # 生活随笔
-└── project/                # 项目记录（暂空）
+└── photos/                 # 图片资源（按主题分类）
 ```
 
 ## 笔记索引
@@ -50,6 +48,7 @@ knowledge-base/
 - [命名空间](knowledge/C和C++/命名空间.md)
 - [模板](knowledge/C和C++/模板.md)
 - [内存池](knowledge/C和C++/内存池.md)
+- [设计模式](knowledge/C和C++/设计模式.md)
 - [运算符重载](knowledge/C和C++/运算符重载.md)
 - [在Linux上进行c++开发](knowledge/C和C++/在Linux上进行c++开发.md)
 - [指针](knowledge/C和C++/指针.md)
@@ -161,10 +160,6 @@ knowledge-base/
 
 - [codex报错](knowledge/agent/codex报错.md)
 
-### 生活随笔
-
-- [关于自己最近的生活](life/关于自己最近的生活.md)
-
 ### 专业术语
 
 - [GIL（全局解释器锁）](knowledge/专业术语/GIL（全局解释器锁）.md)
@@ -174,11 +169,14 @@ knowledge-base/
 
 ### 踩坑记录
 
+- [git push失败](knowledge/遇到的一些问题/git%20push失败.md)
+- [steam-致命错误](knowledge/遇到的一些问题/steam-致命错误.md)
 - [WSL2无法安装](knowledge/遇到的一些问题/WSL2无法安装.md)
 - [WSL无法使用apt安装的问题](knowledge/遇到的一些问题/WSL无法使用apt安装的问题.md)
 - [使用constexpt会报错](knowledge/遇到的一些问题/使用constexpt会报错.md)
 - [无法将项目更改push到远程仓库](knowledge/遇到的一些问题/无法将项目更改push到远程仓库.md)
 - [远程ssh云服务器无法登录](knowledge/遇到的一些问题/远程ssh云服务器无法登录.md)
+- [电脑性能卡顿和虚拟内存设置](knowledge/遇到的一些问题/电脑性能卡顿和虚拟内存设置.md)
 
 ## 其他资源
 
