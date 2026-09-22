@@ -1,6 +1,8 @@
 有时候遇到多个任务执行速度会感觉比较慢，比如：
 ```cpp
 #include <iostream>
+#include <thread>
+#include <chrono>
 
 void time(int ms) { //这行代码是模仿进行任务时消耗的时间
 std::this_thread::sleep_for(std::chrono::milliseconds(ms));
@@ -23,14 +25,16 @@ int main() {
 	std::cout << "任务结束";
 }
 ```
+`time()` 里这行用的是 [[chrono库]]：`milliseconds(ms)` 表示睡多久，`sleep_for` 负责按这个时长阻塞**当前线程**。
 运行结果如下：
 ![[Pasted image 20260609101942.png]]
 这么看第一个任务执行完才执行第二个任务是否有点太慢了？所以需要多线程让两个任务同时进行
-需要以下预处理头文件：`#include <thread>`
+需要以下预处理头文件：`#include <thread>` 和 `#include <chrono>`
 然后代码如下：
 ```cpp
 #include <iostream>
 #include <thread> //导入的线程头文件
+#include <chrono>
 
 void time(int ms) {
 std::this_thread::sleep_for(std::chrono::milliseconds(ms));
@@ -66,6 +70,7 @@ int main() {
 ```cpp
 #include <iostream>
 #include <thread>
+#include <chrono>
 
 
 void time(int ms) {
