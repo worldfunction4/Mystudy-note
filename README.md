@@ -32,6 +32,7 @@ knowledge-base/
 - [C++_std_vector_学习笔记](knowledge/C和C++/C++_std_vector_学习笔记.md)
 - [C++_基础概念_异常与未定义行为](knowledge/C和C++/C++_基础概念_异常与未定义行为.md)
 - [C++线程](knowledge/C和C++/C++线程.md)
+- [chrono库](knowledge/C和C++/chrono库.md)
 - [list容器](knowledge/C和C++/list容器.md)
 - [new关键字](knowledge/C和C++/new关键字.md)
 - [RAII](knowledge/C和C++/RAII.md)
